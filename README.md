@@ -25,14 +25,11 @@ Welcome to the README file for my FreeCodeCamp projects repository. In this repo
   - Project 4: JavaScript Calculator
   - Project 5: Pomodoro Clock
 
-... (continue with other sections if applicable)
-
 ## Technologies Used
 
 - HTML
 - CSS
 - JavaScript
-- [Other technologies you've used]
 
 ## Getting Started
 
