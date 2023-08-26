@@ -1,0 +1,98 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.0em;
+}
+
+img {
+    display: block;
+}
+
+#image {
+    height: auto;
+    text-align: center;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.box {
+    margin: 50px;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.0em;
+    padding: 50px;
+    margin-bottom: -20px;
+}
+
+.caption {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 0;
+    margin-top: 0;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+h3 {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.4em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    font-size: 1.2em;
+    list-style-type: none;
+    padding: 2px;
+    margin: 15px;
+}
+
+ol li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: black;
+    /* Change the color */
+    font-weight: bolder;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+}
+
+blockquote {
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.prime {
+    display: flex;
+    justify-content: flex-start;
+    font-style: italic;
+}
+
+.bold2 {
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+
+a {
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+#tribute-info {
+    padding: 10px;
+}
